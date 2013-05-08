@@ -1,0 +1,63 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.form-horizontal .control-label{
+  float:right;
+}
+.jumbotron {
+    padding:15px;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: block;
+}
+.header-logged-out {
+    padding: 10px 0;
+}
+.header {
+    border-bottom: 1px solid #E5E5E5;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.header-logged-out .top-nav {
+    margin-top: 5px;
+}
+.top-nav {
+    float: left;
+    list-style: none outside none;
+}
+ul.top-nav{margin:0;}
+.top-nav > li {
+    float: left;
+}
+.header-actions {
+    float: right;
+    margin-top: 6px;
+}
+.form-horizontal
+{    
+    direction:rtl;
+}
+#wrap {
+	min-height: 100%;
+    position:relative;
+    top: 30px;
+}
+ #footer {
+	height: 30px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+#wrap > .container {
+    padding-bottom: 30px;
+}
