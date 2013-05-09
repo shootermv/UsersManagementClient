@@ -1,9 +1,9 @@
 // Set the require.js configuration for your application.
 require.config({
 
-  baseUrl: "",
+  baseUrl: "../",
   // Initialize the application with the main application file
-  deps: ["app/main"],
+  deps: ["UsersManagementClient/app/main"],
 
   paths: {
   /*
